@@ -18,7 +18,7 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
         // Set the allowed frontend origin URL
-        configuration.setAllowedOrigins(Arrays.asList("http://localhost:5173")); // Frontend URL
+        configuration.setAllowedOrigins(Arrays.asList("https://jfsd-proj-frontend-cc2c.vercel.app")); // Frontend URL
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(Arrays.asList("Authorization", "Content-Type"));
         configuration.setAllowCredentials(true); // If cookies or credentials are required
