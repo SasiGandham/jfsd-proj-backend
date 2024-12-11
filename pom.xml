@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>com.klef.jfsd.exam</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>com.klef.jfsd.exam</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
